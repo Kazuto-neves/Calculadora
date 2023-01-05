@@ -8,7 +8,7 @@ namespace Calculadora.Domain
         {
             long total = 0;
             if (operador.Equals("Soma")) total = Somar(calculadora);
-            else if (operador.Equals("Subitrai")) total = Subtrair(calculadora);
+            else if (operador.Equals("Subtrai")) total = Subtrair(calculadora);
             else if (operador.Equals("Mutiplica")) total = Mutiplicacao(calculadora);
             else if (operador.Equals("Divide")) total = Divisao(calculadora);
             else if (operador.Equals("Potencia2")) total = Potencia2(calculadora);

@@ -82,7 +82,7 @@ while (end != true)
             break;
         case 2:
             Console.Clear();
-            total = Insert(valores, operadores, "Subitrai", Op);
+            total = Insert(valores, operadores, "Subtrai", Op);
             Console.WriteLine(total);
             Op = continua(valores, total) ? 2 : 1;
             break;

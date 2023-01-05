@@ -44,7 +44,7 @@ namespace Calculadora.PropiedadeTest
         public Property TestarSubitracaoSeOResultadoDaSubtracaoSomadoPeloSubtraendoEigualAminuendo(Valores valores)
         {
             var operador = new Operadores();
-            var Result = operador.TipoOperador("Subitrai", valores);
+            var Result = operador.TipoOperador("Subtrai", valores);
             return ((Result + valores.Valor2) == valores.Valor1).ToProperty().When(valores.Valor1 > 1).Collect(valores.Valor1).Collect(valores.Valor2);
         }
     }
